@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Sorts Mill Goudy', serif;
+  src:url("https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy");
+}
+.container{
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: content;
+  -ms-align-items: center;
+  align-items: center;
+  width:100%;
+}
+.container > *{
+  width: 50%;
+}
+*{
+  font-family: helvetica;
+  font-size: extra-large;
+}
+
+div.answer{
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: large;
+}
+form{
+  text-align: center;
+  font-family: helvetica;
+  font-size: large;
+}
+h1{
+  text-align:center;
+}
+  input.submit, input.clear{
+  padding: 5px 20px;
+  margin: 10px;
+  font-size: large;
+}
+input[type='radio']{
+  padding: 20px;
+  margin:5px 20px;
+}
