@@ -5,25 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Temp Converter</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="../bin/parallax.js-1.5.0/parallax.min.js"></script>
+  <title>jQueryUI demo</title>
 </head>
 <body>
   <div class="container">
-    <h1>Temperature Conversion</h1>
-    <!-- form for converting temperature -->
-    <form class="convert">
-      <input type="text" value="" id="original" class="original">
-      <br>
-      <input type="radio" name="direction" id="faren" class="faren" checked>F&deg;
-      <input type="radio" name="direction" id="celsius" class="celsius">C&deg;
-      <br>
-      <input type="submit" value="Submit" class="submit">
-      <input type="button" value="Clear" class="clear">
-      <br>
-      <div class="answer"> </div>
-    </form>
+    <h1>jQueryUI Tabs Demonstration</h1>
+
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Community and Freedom</a></li>
+        <li><a href="#tabs-2">Community and Forgiveness</a></li>
+        <li><a href="#tabs-3">Community and Idealism</a></li>
+        <li><a href="#tabs-4">Community and Unity</a></li>
+        <li><a href="#tabs-5">Community and Purpose</a></li>
+      </ul>
+      <div id="tabs-1">
+        <p>Community is the place where we ideally learn to be ourselves without fear or constraint.  Community life deepens through mutual trust among all its members.</p>
+        <p>The more authentic and creative a community is in its search for the essential, the more its members are called beyond their own concerns and tend to unite.  A community becomes truly and radiantly one when all its members have a sense of urgency.</p>
+        <p>It is when the members of a community realize that they are not there simply for themselves or their own sanctification, but to welcome the gift of God, to hasten His Kingdom, and to quench the thirst of others, that they truly live as community.</p>
+        <p>The process of becoming a community happens when the majority of its members make the transition from &#8216;the community for myself&#8217; to &#8216;myself for the community.&#8217;</p>
+        <p>Loving means to want others to fulfill themselves according to God&#8217;s plan.  It means<br />
+        wanting them to be faithful to their own calling.</p>
+        <p>The more community deepens, the more vulnerable and the more sensitive its members become.</p>
+        <p>Community is established by the simple, gentle concern that people show each other every day.  It is made of the small gestures, all the services and sacrifices which say &#8216;I love you&#8217; and &#8216;I&#8217;m happy to be with you.&#8217;</p>
+      </div>
+      <div id="tabs-2">
+        <p>Community reaches its height in celebration and its heart in forgiveness.</p>
+        <p>Community is the place of forgiveness.  There are always words that wound, self-promoting attitudes, situations where susceptibilities clash.  That is why living together implies a certain cross, a constant effort and an acceptance that comes from daily and mutual forgiveness.</p>
+        <p>If we come into community without knowing that the reason we come is to discover the mystery of forgiveness, we will soon be disappointed.</p>
+        <p>If we are to make the passage to acceptance and love of others we must start by recognizing our own blocks, jealousies, prejudices and hatreds.</p>
+        <p>Our antipathies towards others is a thorn in the flesh that perhaps the Holy Spirit may someday liberate us from.  But perhaps He will let us go on walking with this thorn which humiliates us and forces us to renew our efforts each day, careful not to offend again.</p>
+        <p>Patience, like forgiveness, is at the heart of community life; patience with ourselves, with the laws of our own growth and with others.</p>
+      </div>
+      <div id="tabs-3">
+        <p>A community is not simply a group of people who love each other.  It is a current of life, a heart, a soul, a spirit.</p>
+        <p>We shouldn&#8217;t seek the ideal community.  It is a question of loving those whom God has set beside us today.  They are signs from God.  We might have chosen different people, people who were more cheerful or intelligent.  But these are the ones God has given us, the ones He has chosen for us.  It is with them that we are called to create unity and live in covenant.</p>
+        <p>It is difficult to make people understand that the ideal community doesn&#8217;t exist and that the equilibrium and harmony they imagine possible are things that come only after years of struggle, and that even then come only as flashes of grace and peace.</p>
+      </div>
+      <div id="tabs-4">
+        <p>Community is the place where each person grows towards interior freedom.  It can never take precedence over the individual.  In fact, its beauty and unity come from the radiance and diversity of each individual when its own light, truth and love come into free union with others.</p>
+        <p>The gift of community, of unity, will come only when all members of the community are truly themselves, living as expression of God&#8217;s love within them in the exercise of the gifts He has given them.  The community becomes one because it is fully under the influence of the Holy Spirit who unites it.</p>
+        <p>Almost everyone finds their early days in a community ideal.  It all seems perfect.  They seem unable to see the drawbacks, they see only what is good.  Everything is marvelous.  They feel they are surrounded by saints, heroes, or at the least, most exceptional people who are everything they want to be themselves.  And then comes the let-down.  During this time everything becomes dark; people no longer see anything but the faults of others and of the community.  They feel they are surrounded by hypocrites.  Life becomes intolerable.  The greater their idealization of the community at the start, the greater the disenchantment.  If people manage to get through this second period, they come to a third phase; that of realism and of true commitment.  They no longer see other members of the community as saints or devils, but as people; each with a mixture of good and bad, darkness and light, each growing and each with their own hope.  The community is neither heaven nor hell, but planted firmly on earth, and they are ready to walk in it, and with it.  They accept the community and the other members as they are; they are confident that together they can grow towards something more beautiful.</p>
+        <p>Many people who have lived together for years and whose love for one another has been often tested know that community has not resulted from the fact that they were able to hold together but from the knowledge that they were somehow held together by a greater force.  We are a community not because we happen to like each other, or share a common task, but because we have somehow been called together by God.</p>
+        <p>All members of a community must be on their guard against sowing discord, whether consciously or unconsciously.  All of them must constantly seek to be instruments of unity.</p>
+      </div>
+      <div id="tabs-5">
+        <p>A community is there not only for the growth of its members, but for the growth of the people for whom it is destined.  When we know these people, and our responsibility towards them, then we are able to go beyond ourselves.</p>
+        <p>A community gradually discovers as it grows that it is not there simply for itself.  It belongs to humanity.  It has received a gift which must bear fruit for the sake of others.</p>
+        <p>When it begins, a community is like a seed which must grow to become a tree.  As it matures, and becomes a tree that bears fruit, it also must be a place where birds of the air can come to make their nests.</p>
+      </div>
+    </div>
   </div>
 
+  <div class="container">
+    <h1>jQueryUI Accordions Demonstration</h1>
+
+    <div id="accordion">
+      <h3>Freedom</h3>
+      <div><img src="http://via.placeholder.com/350x150" alt="Liberation Will Come from a Black Thing"></div>
+      <h3>Forgiveness</h3>
+      <div><img src="http://via.placeholder.com/350x250" alt="Restorative Justice"></div>
+      <h3>Idealism</h3>
+      <div><img src="http://via.placeholder.com/350x450" alt="Life could be a lot better, too!"></div>
+      <h3>Unity</h3>
+      <div><img src="http://via.placeholder.com/350x550" alt="1968: Tommy Smith, John Carlos, Peter Norman"></div>
+      <h3>Purpose</h3>
+      <div><img src="http://via.placeholder.com/350x350" alt="you love it, the world needs it, you are great at it, you are paid for it"></div>
+    </div>
+  </div>
+
+  <div id="container">
+    <h1>Parallax Demonstration
+      <div class="container parallax-window" data-parallax="scroll" data-image-src="./nebula.jpg">
+        <span>Photo Credit: ESA/Hubble</span>
+      </div>
+    </h1>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

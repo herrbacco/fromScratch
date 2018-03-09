@@ -13,11 +13,25 @@
   width:100%;
 }
 .container > *{
-  width: 50%;
+  width: 100%;
 }
 *{
   font-family: helvetica;
   font-size: extra-large;
+}
+
+.parallax-window{
+  position: relative;
+  text-align: right;
+  min-height: 400px;
+  background: transparent;
+}
+.parallax-window span{
+  font-size: small;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right:0;
 }
 
 div.answer{
